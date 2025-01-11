@@ -1,5 +1,7 @@
 <template>
-  <hello-world />
+  <h2 class="headline font-weight-bold mb-5">
+          products
+  </h2>
 
 </template>
 
@@ -7,13 +9,11 @@
 import { defineComponent } from 'vue';
 
 // Components
-import HelloWorld from '../components/HelloWorld.vue';
+
 
 export default defineComponent({
-  name: 'HomeView',
+  name: 'ProductsView',
 
-  components: {
-    HelloWorld,
-  },
+  
 });
 </script>
