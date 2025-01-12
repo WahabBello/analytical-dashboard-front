@@ -1,6 +1,6 @@
 <template>
   <h2 class="headline font-weight-bold mb-5">
-          sale
+          Sales View
   </h2>
 
 </template>
